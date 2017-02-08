@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : Kontak
+
+public class Kontak
+{
+     public $on;
+     public $of;
+     public $kontak;
+     public function on() {
+ 	return 'on';
+      }    
+      public function of() {
+	return 'off';
+    }  
+      public function kontak() {
+	return 'kantak ';
+    }
+}

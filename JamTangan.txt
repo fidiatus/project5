@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : JamTangan
+
+public class JamTangan
+{
+     public $jam;
+     public $angka;
+     public $batery;
+     public function jam() {
+ 	return 'isi jam';
+      }    
+      public function angka() {
+	return 'angka';
+    }  
+      public function batery() {
+	return 'Melindungi batery';
+    }
+}

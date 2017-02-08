@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : Toilet
+
+public class Toilet
+{
+     public String slang;
+     public String kran;
+     public String shower;
+     public function slangAir() {
+ 	return 'digunakan untuk penyambung ';
+      }    
+      public function kranAir() {
+	return 'tempat air mengalir';
+    }  
+      public function shower() {
+	return 'digunakan saat mandi ';
+    }
+}

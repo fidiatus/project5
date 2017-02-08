@@ -1,0 +1,18 @@
+
+Implementasi PSR dalam OOP => Class 1 : Westafel
+
+public class Westafel 
+{
+      public String kran;
+      public String wadah;
+      public String Slang;
+     public function kranWestafel() {
+ 	return 'Tempat Keluar Air ';
+      }    
+      public function wadahWestafel() {
+	return 'Menampung Air';
+    }  
+      public function slangWestafel() {
+	return 'Tempat aliran Air';
+    }
+}

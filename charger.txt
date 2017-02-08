@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : Charger
+
+public class Charger
+{
+     public $kabel;
+     public $colokan1;
+     public $colokan2;
+     public function kabelCharger() {
+ 	return 'untuk menghubungkan antara laptop dengan listrik';
+      }    
+      public function colokan1() {
+	return 'Menghubungkan kabel dengan listrik';
+    }  
+      public function sakuTas() {
+	return 'Menghubungkan kabel dengan laptop ';
+    }
+}

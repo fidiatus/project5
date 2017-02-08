@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : AC
+
+public class AC
+{
+     public $kipas;
+     public $body;
+     public $slang;
+     public function kipas() {
+ 	return 'kipas';
+      }    
+      public function body() {
+	return 'body ';
+    }  
+      public function slang() {
+	return 'body ';
+    }
+}

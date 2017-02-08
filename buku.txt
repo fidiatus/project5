@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : Buku
+
+public class Charger
+{
+     public $isi;
+     public $sampul;
+     public $kulit;
+     public function isi() {
+ 	return 'isi Buku';
+      }    
+      public function sampul() {
+	return 'sampul';
+    }  
+      public function kulit() {
+	return 'Melindungi buku ';
+    }
+}

@@ -1,0 +1,18 @@
+
+Implementasi PSR dalam OOP => Class 1 : Kipas
+
+public class Kipas 
+{
+     public $baling;
+     public $tombol;
+     public $badan;
+     public function BalingKipas() {
+ 	return 'berputar';
+      }    
+      public function TombolKipas() {
+	return 'On';
+    }
+     public function badanKipas() {
+	return 'menahan kipas';
+    }
+}

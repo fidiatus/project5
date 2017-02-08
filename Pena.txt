@@ -1,0 +1,17 @@
+Implementasi PSR dalam OOP => Class 1 : Pena
+
+public class Pena
+{
+     public $tutup;
+     public $ujung;
+     public $badan;
+     public function tutup() {
+ 	return 'tutup pena';
+      }    
+      public function ujung() {
+	return 'ujung pena';
+    }  
+      public function badan() {
+	return 'badan pena ';
+    }
+}
